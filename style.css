@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    font-family: "Poppins", serif;
+    overflow: hidden;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+}
+
+div:first-child img {
+    margin: 50px;
+}
+.list-item:nth-child(1) {
+    font-weight: 500;
+    text-decoration: underline;
+  }
+
+.list {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 150px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.list-item {
+    font-size: 25px;
+    width: 150px;
+}
+
+.button-group {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.search-icon {
+    width: 40px;
+}
+
+button.nav-button {
+    width: 140px;
+    height: 40px;
+    margin-top: -5px;
+    border-radius: 10px;
+    border-width: 3px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.square {
+
+    margin-left: 140px;
+}
+
+span:first-child img {
+    block-size: 400px;
+    margin-top: 250px;
+    z-index: -1;
+}
+
+span.star {
+    margin-top: -700px;
+    margin-left: 1420px;
+}
+
+span.globe {
+    margin-top: -250px;
+    margin-left: 775px;
+}
+
+.globe+div img {
+    margin-top: -90px;
+    margin-left: 70px;
+    block-size: 560px;
+}
+
+.hero-container-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-heading {
+    margin-top: -520px;
+    margin-left: 680px;
+    font-family: "Poppins", serif;
+    font-size: 80px;
+}
+
+.hero-description {
+    margin-top: 20px;
+    margin-left: 700px;
+    margin-right: 40px;
+    font-size: 20px;
+
+}
+
+.button-email {
+    margin-top: 60px;
+    margin-left: 1000px;
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-join {
+    margin-top: 60px;
+    margin-left: 20px;
+    width: 120px;
+    height: 35px;
+    font-size: 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-heading {
+    display: flex;
+    flex-direction: row;
+}
+
+h4 {
+    margin-top: 80px;
+    margin-left: 63vw;
+    font-size: 30px;
+}
+
+.icons {
+    margin-top: 40px;
+    margin-left: 400px;
+    display: inline-flex;
+    flex-direction: row;
+    position: relative;
+    left: 30vw;
+}
+
+.contact-heading+div img {
+    block-size: 30px;
+    margin-top: -20px;
+}
